@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Details</title>
+</head>
+<body>
+
+<form autocomplete="off">
+
+    <fieldset style="width:500px;">
+        <legend>Employee Details</legend>
+        <div>
+        <label>First Name:</label>
+        <input type="text"
+               name="fname"
+               required
+               pattern="[A-Za-z]"
+               title="Letters only">
+               
+        </div>
+
+       <div>
+        <label>Last Name:</label>
+        <input type="text"
+               name="lname"
+               required
+               pattern="[A-Za-z]"
+               title="At least 5 letters">
+       </div>
+
+       <div>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+       </div>
+
+        <div>
+        <label>Employee ID:</label>
+        <input type="text" name="empid">
+        </div>
+
+        <div>
+        <label>Designation:</label>
+        <input type="text" name="designation">
+        </div>
+
+        <div>
+        <label>Mobile:</label>
+        <input type="number"
+               name="mobile"
+               required
+               pattern="01[0125][0-9]{8}"
+               maxlength="11"
+               minlength="11"
+               placeholder="01XXXXXXXXX">
+        </div>
+
+       <div>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+       </div>
+
+       <div>
+        <label>Course:</label>
+        <input list="courses" name="course" required>
+       </div>
+
+       <div>
+        <datalist id="courses">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="PHP">
+            <option value="Python">
+        </datalist>
+       </div>
+
+       <div>
+        <label>Tracks:</label><br>
+
+        <input type="checkbox" name="track" checked> Web Development <br>
+        <input type="checkbox" name="track"> Mobile App <br>
+        <input type="checkbox" name="track"> AI <br>
+    
+
+       <div>
+        <label>Experience:</label>
+        <input type="range"
+               name="experience"
+               min="10"
+               max="100"
+               value="100">
+       </div>
+
+       <div>
+        <label>Upload Image:</label>
+        <input type="file"
+               name="image"
+               accept=".png"
+               required>
+       </div>
+
+       <div>
+        <label>Comment:</label><br>
+        <textarea name="comment"
+                  rows="5"
+                  cols="40"
+                  required></textarea>
+       </div>
+
+       <div>
+        <label>Search:</label>
+        <input type="search" name="search">
+       </div>
+
+        <input type="submit" value="Submit">
+
+    </fieldset>
+
+</form>
+
+</body>
+</html>
