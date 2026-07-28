@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section (bg-light) */
+.bg-light {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* Header (center) */
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header span {
+    background-color: #4a69bd; 
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Cards Wrapper  */
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    width: 33.33%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding-bottom: 20px;
+}
+
+/* Card => img */
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Card => header */
+.card h3 {
+    color: #2e8b57; 
+    padding: 15px 15px 10px;
+    font-size: 20px;
+}
+
+/* Card => p */
+.card p {
+    color: #777; 
+    padding: 0 15px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Card => a */
+.card a {
+    color: #aaa;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card a:hover {
+    color: #4a69bd;
+    text-decoration: underline;
+}
