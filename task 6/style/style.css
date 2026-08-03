@@ -1,0 +1,565 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#222;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+header{
+    padding:20px 0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:18px;
+    font-weight:600;
+    color:#244f4b;
+}
+
+.logo i{
+    color:#2d6a63;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#444;
+    font-size:14px;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#2d6a63;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    padding:50px 0;
+}
+
+.hero-text{
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+}
+
+.hero-text h1{
+    font-size:46px;
+    line-height:1.2;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero-text p{
+    color:#777;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 38px;
+    background:#2d6a63;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.btn:hover{
+    background:#214e49;
+}
+
+/* ===========================
+   GALLERY
+=========================== */
+
+.gallery{
+    margin-top:60px;
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.image{
+    width:50%;
+}
+
+.image img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+}
+
+/* ===========================
+   WELLBEING
+=========================== */
+
+.wellbeing{
+    padding:70px 0;
+}
+
+.wellbeing .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.left{
+    width:60%;
+}
+
+.right{
+    width:40%;
+    text-align:center;
+}
+
+.right img{
+    width:90%;
+}
+
+.left h2{
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+}
+
+.card{
+    background:#f6f6f6;
+    padding:25px;
+    border-radius:15px;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#2d6a63;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+.card h3{
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.gallery{
+    flex-direction:column;
+}
+
+.image{
+    width:100%;
+}
+
+.wellbeing .container{
+    flex-direction:column;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.cards{
+    flex-direction:column;
+}
+
+.hero-text h1{
+    font-size:35px;
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    gap:20px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-text h1{
+    font-size:28px;
+}
+
+.left h2{
+    font-size:28px;
+}
+
+.image img{
+    height:220px;
+}
+
+.btn{
+    padding:12px 28px;
+}
+
+}
+
+/*=========================
+    FRESH PRODUCE
+=========================*/
+
+.produce{
+    padding:80px 0;
+}
+
+.produce-container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.produce-image{
+    width:45%;
+}
+
+.produce-image img{
+    width:100%;
+    border-radius:15px;
+    display:block;
+}
+
+.produce-content{
+    width:55%;
+}
+
+.produce-content h2{
+    font-size:35px;
+    margin-bottom:20px;
+    color:#222;
+}
+
+.produce-content p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:18px;
+    color:#555;
+}
+
+.feature i{
+    color:#2d6a63;
+    font-size:20px;
+}
+
+/*=========================
+      YOU ARE WHAT YOU EAT
+=========================*/
+
+.eat{
+    padding:80px 0;
+    background:#fafafa;
+}
+
+.eat-container{
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.eat-image{
+    width:40%;
+}
+
+.eat-image img{
+    width:100%;
+}
+
+.eat-content{
+    width:60%;
+}
+
+.eat-content h2{
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.eat-cards{
+    display:flex;
+    gap:25px;
+}
+
+.eat-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.eat-card:hover{
+    transform:translateY(-8px);
+}
+
+.small-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#ffe9df;
+    color:#ff8855;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:18px;
+    font-size:22px;
+}
+
+.eat-card h3{
+    margin-bottom:10px;
+}
+
+.eat-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+/*=========================
+         BANNER
+=========================*/
+
+.banner{
+    background:url("images/banner.jpg") center center/cover;
+    margin-top:80px;
+}
+
+.overlay{
+    background:rgba(0,0,0,.45);
+    padding:120px 0;
+}
+
+.banner-content{
+    text-align:center;
+    color:#fff;
+}
+
+.banner-content i{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.banner-content h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.banner-content p{
+    margin-bottom:35px;
+}
+
+/*=========================
+      FEATURES BOX
+=========================*/
+
+.features-box{
+    margin-top:-70px;
+    margin-bottom:80px;
+}
+
+.features-box .container{
+    background:#ffe7dc;
+    border-radius:20px;
+    padding:35px;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+}
+
+.feature-card{
+    flex:1;
+}
+
+.feature-card i{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-bottom:15px;
+    color:#2d6a63;
+    font-size:28px;
+}
+
+.feature-card h4{
+    font-size:18px;
+    color:#444;
+}
+
+/*=========================
+          FOOTER
+=========================*/
+
+footer{
+    background:#245b59;
+    color:#fff;
+    padding:35px 0;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    font-weight:600;
+}
+
+.footer-logo i{
+    color:#fff;
+}
+
+footer ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+footer ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+footer ul li a:hover{
+    color:#ffe7dc;
+}
+
+/*=========================
+       RESPONSIVE
+=========================*/
+
+@media(max-width:992px){
+
+.produce-container,
+.eat-container{
+    flex-direction:column;
+}
+
+.produce-image,
+.produce-content,
+.eat-image,
+.eat-content{
+    width:100%;
+}
+
+.eat-cards{
+    flex-direction:column;
+}
+
+.features-box .container{
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.feature-card{
+    width:45%;
+}
+
+.footer-container{
+    flex-direction:column;
+    gap:20px;
+}
+
+footer ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.banner-content h2{
+    font-size:28px;
+}
+
+.produce-content h2,
+.eat-content h2{
+    font-size:28px;
+}
+
+.features-box .container{
+    flex-direction:column;
+}
+
+.feature-card{
+    width:100%;
+}
+
+}
