@@ -1,0 +1,556 @@
+/*=========================
+        GOOGLE FONT
+==========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*=========================
+        RESET
+==========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Roboto',sans-serif;
+    background:#ffffff;
+    color:#222;
+}
+
+img{
+
+    width:100%;
+    display:block;
+}
+
+a{
+
+    text-decoration:none;
+}
+
+.latest-news{
+
+    padding:70px 0;
+}
+
+/*=========================
+      SECTION TITLE
+==========================*/
+
+.section-heading{
+
+    margin-bottom:28px;
+    position:relative;
+}
+
+.section-heading h4{
+
+    font-size:21px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:0;
+}
+
+.section-heading::after{
+
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-12px;
+
+    width:100%;
+    height:1px;
+
+    background:#ececec;
+}
+
+/*=========================
+      ARTICLE CARD
+==========================*/
+
+.article-card{
+
+    background:#fff;
+
+    border:1px solid #efefef;
+
+    margin-bottom:15px;
+
+    transition:.35s;
+
+    overflow:hidden;
+}
+
+.article-card:hover{
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.article-card img{
+
+    width:100%;
+    height:250px;
+
+    object-fit:cover;
+}
+
+.article-content{
+
+    padding:24px;
+}
+
+.article-content h3{
+
+    font-size:31px;
+
+    line-height:1.35;
+
+    font-weight:700;
+
+    color:#222;
+
+    margin-bottom:15px;
+}
+
+.article-content p{
+
+    color:#8a8a8a;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:18px;
+}
+
+.article-content span{
+
+    color:#999;
+
+    font-size:14px;
+}
+
+/*=========================
+      VIDEO CARD
+==========================*/
+
+.video-card{
+
+    border:1px solid #efefef;
+
+    background:#fff;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+}
+
+.video-card:hover{
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.video-image{
+
+    position:relative;
+}
+
+.video-image img{
+
+    width:100%;
+    height:235px;
+
+    object-fit:cover;
+}
+
+.category{
+
+    position:absolute;
+
+    top:15px;
+    left:15px;
+
+    background:#7a4cff;
+
+    color:#fff;
+
+    padding:7px 14px;
+
+    font-size:11px;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    border-radius:2px;
+}
+
+.play-btn{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:62px;
+    height:62px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.play-btn i{
+
+    color:#666;
+
+    font-size:18px;
+
+    margin-left:3px;
+}
+
+.play-btn:hover{
+
+    background:#0d6efd;
+}
+
+.play-btn:hover i{
+
+    color:#fff;
+}
+
+.video-content{
+
+    padding:24px;
+}
+
+.video-content h3{
+
+    font-size:27px;
+
+    line-height:1.4;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+    color:#222;
+}
+
+.video-content p{
+
+    font-size:16px;
+
+    color:#8b8b8b;
+
+    line-height:1.7;
+
+    margin-bottom:18px;
+}
+
+.video-content span{
+
+    font-size:14px;
+
+    color:#999;
+}
+/*=========================
+        LOAD MORE BUTTON
+==========================*/
+
+.load-btn{
+
+    margin-top:35px;
+
+    background:#ffffff;
+
+    border:1px solid #ececec;
+
+    color:#999;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    padding:12px 38px;
+
+    border-radius:30px;
+
+    transition:all .35s ease;
+
+    cursor:pointer;
+}
+
+.load-btn:hover{
+
+    background:#7a4cff;
+
+    color:#fff;
+
+    border-color:#7a4cff;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(122,76,255,.25);
+}
+
+/*=========================
+      CARD HOVER EFFECT
+==========================*/
+
+.article-card:hover img{
+
+    transform:scale(1.05);
+}
+
+.video-card:hover img{
+
+    transform:scale(1.05);
+}
+
+.article-card img,
+.video-image img{
+
+    transition:0.5s ease;
+}
+
+.article-card:hover h3,
+.video-card:hover h3{
+
+    color:#7a4cff;
+}
+
+/*=========================
+      IMAGE OVERFLOW
+==========================*/
+
+.article-card .col-md-4{
+
+    overflow:hidden;
+}
+
+.video-image{
+
+    overflow:hidden;
+}
+
+/*=========================
+      SPACING
+==========================*/
+
+.row.gx-5{
+
+    --bs-gutter-x:3rem;
+}
+
+.col-lg-8{
+
+    padding-right:20px;
+}
+
+.col-lg-4{
+
+    padding-left:20px;
+}
+
+/*=========================
+      RESPONSIVE
+==========================*/
+
+@media(max-width:991px){
+
+.section-heading{
+
+    margin-top:25px;
+}
+
+.article-card img{
+
+    height:250px;
+}
+
+.article-content{
+
+    padding:22px;
+}
+
+.article-content h3{
+
+    font-size:24px;
+}
+
+.video-content h3{
+
+    font-size:22px;
+}
+
+.video-image img{
+
+    height:260px;
+}
+
+.col-lg-8,
+.col-lg-4{
+
+    padding:0 12px;
+}
+
+.load-btn{
+
+    margin-top:20px;
+}
+
+}
+
+@media(max-width:768px){
+
+.article-card .row{
+
+    display:block;
+}
+
+.article-card img{
+
+    width:100%;
+    height:220px;
+}
+
+.article-content{
+
+    padding:20px;
+}
+
+.article-content h3{
+
+    font-size:20px;
+    line-height:1.5;
+}
+
+.article-content p{
+
+    font-size:15px;
+}
+
+.video-content{
+
+    padding:20px;
+}
+
+.video-content h3{
+
+    font-size:20px;
+}
+
+.video-content p{
+
+    font-size:15px;
+}
+
+.video-image img{
+
+    height:220px;
+}
+
+.play-btn{
+
+    width:55px;
+    height:55px;
+}
+
+.category{
+
+    font-size:10px;
+
+    padding:6px 12px;
+}
+
+}
+
+@media(max-width:576px){
+
+.latest-news{
+
+    padding:40px 0;
+}
+
+.section-heading h4{
+
+    font-size:18px;
+}
+
+.article-card{
+
+    margin-bottom:18px;
+}
+
+.article-content{
+
+    padding:18px;
+}
+
+.article-content h3{
+
+    font-size:18px;
+}
+
+.article-content span{
+
+    font-size:12px;
+}
+
+.video-content{
+
+    padding:18px;
+}
+
+.video-content h3{
+
+    font-size:18px;
+}
+
+.video-content span{
+
+    font-size:12px;
+}
+
+.load-btn{
+
+    width:170px;
+
+    font-size:13px;
+}
+
+}
+
+/*=========================
+      SMOOTH EFFECTS
+==========================*/
+
+html{
+
+    scroll-behavior:smooth;
+}
+
+button,
+img,
+.article-card,
+.video-card{
+
+    transition:all .35s ease;
+}
