@@ -1,12 +1,5 @@
-/*=========================
-        GOOGLE FONT
-==========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
-/*=========================
-        RESET
-==========================*/
 
 *{
     margin:0;
@@ -37,9 +30,7 @@ a{
     padding:70px 0;
 }
 
-/*=========================
-      SECTION TITLE
-==========================*/
+
 
 .section-heading{
 
@@ -68,9 +59,7 @@ a{
     background:#ececec;
 }
 
-/*=========================
-      ARTICLE CARD
-==========================*/
+/****artticle***/
 
 .article-card{
 
@@ -134,9 +123,7 @@ a{
     font-size:14px;
 }
 
-/*=========================
-      VIDEO CARD
-==========================*/
+/****video*****/
 
 .video-card{
 
@@ -270,9 +257,7 @@ a{
 
     color:#999;
 }
-/*=========================
-        LOAD MORE BUTTON
-==========================*/
+
 
 .load-btn{
 
@@ -310,9 +295,7 @@ a{
     box-shadow:0 10px 20px rgba(122,76,255,.25);
 }
 
-/*=========================
-      CARD HOVER EFFECT
-==========================*/
+
 
 .article-card:hover img{
 
@@ -323,55 +306,40 @@ a{
 
     transform:scale(1.05);
 }
-
 .article-card img,
 .video-image img{
 
     transition:0.5s ease;
 }
-
 .article-card:hover h3,
 .video-card:hover h3{
 
     color:#7a4cff;
 }
-
-/*=========================
-      IMAGE OVERFLOW
-==========================*/
-
 .article-card .col-md-4{
 
     overflow:hidden;
 }
-
 .video-image{
 
     overflow:hidden;
 }
 
-/*=========================
-      SPACING
-==========================*/
+
 
 .row.gx-5{
 
     --bs-gutter-x:3rem;
 }
-
 .col-lg-8{
 
     padding-right:20px;
 }
-
 .col-lg-4{
 
     padding-left:20px;
 }
-
-/*=========================
-      RESPONSIVE
-==========================*/
+/*RESPONSIVE*/
 
 @media(max-width:991px){
 
@@ -538,10 +506,6 @@ a{
 
 }
 
-/*=========================
-      SMOOTH EFFECTS
-==========================*/
-
 html{
 
     scroll-behavior:smooth;
@@ -552,5 +516,5 @@ img,
 .article-card,
 .video-card{
 
-    transition:all .35s ease;
+    transition:all .5s ease;
 }
