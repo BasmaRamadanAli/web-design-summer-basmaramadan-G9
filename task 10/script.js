@@ -3,7 +3,7 @@ const container = document.getElementById("cardsContainer");
 const healthCards = `
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>How Did van Gogh's Turbulent Mind Depict One of the Most</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -23,7 +23,7 @@ const healthCards = `
 
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 3.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>How Did van Gogh's Turbulent Mind Depict One of the Most</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -33,7 +33,7 @@ const healthCards = `
 
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 4.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>How Did van Gogh's Turbulent Mind Depict One of the Most</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -45,7 +45,7 @@ const healthCards = `
 const vogueCards = `
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Vogue Fashion Collection 2025</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -55,7 +55,7 @@ const vogueCards = `
 
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Modern Fashion Style</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -67,7 +67,7 @@ const vogueCards = `
 const travelCards = `
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Best Places To Visit This Summer</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -77,7 +77,7 @@ const travelCards = `
 
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Explore Beautiful Nature</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -89,7 +89,7 @@ const travelCards = `
 const gadgetsCards = `
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Latest Smart Gadgets</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
@@ -99,7 +99,7 @@ const gadgetsCards = `
 
 <div class="col-md-6">
     <div class="news-card">
-        <img src="images/img 1.jpeg">
+        <img src="images/img 2.jpeg">
         <div class="news-content">
             <h5>Top Technology In 2025</h5>
             <p>Katy Liu on Sep 29, 2017 at 9:48 am</p>
